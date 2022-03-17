@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="css/contacto.css" />
+    <title>Mi página</title> 
+</head> 
+<body> 
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>   
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="galeria.html">Galeria</a></li> 
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>    
+    <section class="">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15025.956666974951!2d-99.00941367798409!3d19.691787537799993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ed6f6c0f25e3%3A0x49b9304aace4a730!2sSierra%20Hermosa%2C%20Ojo%20de%20Agua%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1646277488874!5m2!1ses!2smx" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+        </iframe>
+        
+    </section>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre...">
+                <br><br>
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese un correo Valido" placeholder="ejemplo@gmail.com...">
+                <br><br>
+                <label for="telefono">Numero de Telefono</label>
+                <input type="tel" name="telefono" pattern="[0-9]{10}" title="Ingrese numero de 10 dijitos" placeholder="123456789">
+                <br><br>
+                <label for="sexo">Sexo</label><br>
+                <input type="radio" name="sexo">                    
+                <label for="sexo">Femenino</label><br>
+                <input type="radio" name="sexo">
+                <label for="sexo">Masculino</label>
+                <br><br>
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" placeholder="Escribe tu Direccion Actual...">
+                <br><br>
+                <label for="comentarios">Comentarios</label>
+                <input type="text" name="comentarios" placeholder="Escribe un Comentario...">
+                <br><br>
+                <input type="checkbox" name="terminos" value="1" onclick="boton.disabled = !this.checked">
+                <label for="terminos">Acepta los Terminos y Condiciones</label>
+                <br><br>
+                <input type="submit" value="Enviar" id="Enviar">
+            </fieldset>
+        </form>
+    </section>
+    <section class="pie">
+        <p>Desarrollado por De La Rosa Miguel.</p>
+    </section>
+</body> 
+</html>

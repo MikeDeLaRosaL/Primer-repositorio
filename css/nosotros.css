@@ -1,0 +1,30 @@
+div.noticia {
+    width: 80%;
+    margin: 20px auto;
+    background-color: burlywood;
+    color: #fff;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+  div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+  div.reset {
+      clear: both;
+  }
+  div.texto{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  img{
+      width: 150px;   
+  }
+  h1{
+   
+    text-align: center;
+  }
